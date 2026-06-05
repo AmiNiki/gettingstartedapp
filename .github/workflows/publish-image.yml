@@ -51,3 +51,4 @@ jobs:
           subject-digest: ${{ steps.push.outputs.digest }}
           push-to-registry: true
           predicate-type: https://slsa.dev/provenance/v1
+          predicate: "{}"
